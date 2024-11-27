@@ -1,0 +1,79 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  overflow: hidden;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.grid-left {
+  background-color: #007acc;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.grid-left h5 {
+  font-size: 1.2rem;
+  margin-bottom: 0.1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.grid-left h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.grid-left > button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.8rem 2rem;
+  border: 2px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #005999;
+  color: white;
+}
+
+.grid-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.grid-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Stacks the grid vertically */
+  }
+
+  .grid-left {
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .grid-right img {
+    width: 100%;
+    height: auto;
+  }
+}

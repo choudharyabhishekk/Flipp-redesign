@@ -1,0 +1,53 @@
+.reach-component {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.text-section {
+  text-align: left;
+}
+
+.subheading {
+  color: #007acc;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .reach-component {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .image-section img {
+    margin: 0 auto;
+  }
+}
