@@ -1,7 +1,3 @@
-Here’s an updated README.md to reflect that the project is built with React:
-
----
-
 # Flipp Website Redesign
 
 Welcome to the **Flipp Website Redesign** project repository! This project is a redesign of the Flipp website, originally built with WordPress. As one of my most-used apps, I decided to redesign it using React as part of a college project to showcase my web development skills.
