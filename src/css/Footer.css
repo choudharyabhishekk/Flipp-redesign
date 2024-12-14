@@ -119,6 +119,11 @@
   color: #00aaff;
 }
 
+.credits > a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .footer-top,

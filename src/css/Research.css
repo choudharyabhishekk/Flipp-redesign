@@ -25,6 +25,8 @@
 .content {
   display: flex;
   gap: 2rem;
+  align-items: center;
+  margin: auto;
   flex-wrap: wrap;
   justify-content: center;
 }

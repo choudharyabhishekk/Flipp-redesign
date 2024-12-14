@@ -78,10 +78,6 @@ const Contact = () => {
         />
       </div>
       <div className="form-group">
-        <label htmlFor="reason">Reason for Inquiry</label>
-        <textarea id="reason" name="reason"></textarea>
-      </div>
-      <div className="form-group">
         <label htmlFor="howHeard">How did you hear about us? *</label>
         <select id="howHeard" name="howHeard" required>
           <option value="">Select One</option>
@@ -89,6 +85,10 @@ const Contact = () => {
           <option value="Advertisement">Advertisement</option>
           <option value="Other">Other</option>
         </select>
+      </div>
+      <div className="form-group">
+        <label htmlFor="reason">Reason for Inquiry</label>
+        <textarea id="reason" name="reason"></textarea>
       </div>
       <button type="submit" className="submit-button">
         Submit

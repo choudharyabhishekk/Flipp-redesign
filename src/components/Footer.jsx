@@ -135,9 +135,13 @@ const Footer = () => {
             <FaLinkedinIn />
           </a>
         </div>
-        <p>
-          Designed with by Group1 • &copy; {new Date().getFullYear()} Flipp
-          Operations Inc. All rights reserved.
+        <p className="credits">
+          Designed by{" "}
+          <a href="https://github.com/choudharyabhishekk" target="_blank">
+            Abhishek Choudhary
+          </a>{" "}
+          • &copy; {new Date().getFullYear()} Flipp Operations Inc. All rights
+          reserved.
         </p>
       </div>
     </footer>
