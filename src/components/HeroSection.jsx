@@ -26,7 +26,11 @@ const HeroSection = () => {
 
       {/* Content Overlay */}
       <div className="hero-content">
-        <h1>Reach 100 million high intent shoppers with experiences not ads</h1>
+        <h1>
+          Reach 100M high intent <br />
+          shoppers with experiences <br />
+          not Ads
+        </h1>
         <div className="hero-buttons">
           <button onClick={handleContactClick} className="btn btn-primary">
             Contact Us

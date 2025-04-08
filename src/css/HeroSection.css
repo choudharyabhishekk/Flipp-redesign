@@ -41,14 +41,15 @@
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .btn {
   font-size: 1rem;
-  padding: 0.8rem 1.5rem;
+  padding: 0.8rem 2rem;
   border: none;
   border-radius: 20px;
+  box-shadow: 0 0 5px 0 gray;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }

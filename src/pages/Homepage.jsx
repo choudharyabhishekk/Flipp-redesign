@@ -14,7 +14,8 @@ const Homepage = () => {
       <HeroSection />
       <DynamicSection />
       <FlippPlatform />
-      <Research /> <FAQ />
+      <Research />
+      <FAQ />
       <CTACard
         title="Grow your business with Flipp"
         subtitle="Get Started"
