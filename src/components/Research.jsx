@@ -1,37 +1,8 @@
 import React from "react";
 import "../css/Research.css";
-import ResearchBanner from "../images/State-of-Grocery-Report-2024-Web-EN.jpg";
+import { statistics, reports } from "../data/data";
 
 const Research = () => {
-  const statistics = [
-    {
-      value: "54%",
-      text: "Over half of flyer readership is now only/majorly digital.",
-    },
-    { value: "83%", text: "Of shoppers are checking prices before shopping." },
-    {
-      value: "$147",
-      text: "Is the average amount shoppers are spending on groceries each week.",
-    },
-  ];
-
-  const reports = [
-    {
-      country: "CANADA",
-      title: "State of Grocery Report 2024",
-      description: "November, 2024",
-      downloadText: "Download this report",
-      image: ResearchBanner,
-    },
-    {
-      country: "CANADA",
-      title: "Le rapport 2024 sur l'état de l'épicerie",
-      description: "November, 2024",
-      downloadText: "Download this report",
-      image: ResearchBanner,
-    },
-  ];
-
   return (
     <section className="research-insights">
       <div className="header">

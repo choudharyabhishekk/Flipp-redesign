@@ -1,0 +1,4 @@
+Optimize React code for PageSpeed Insights; add lazy loading for videos and images.
+improve footer links, import them from data file.
+Do the same for routers
+upgrate to SCSS from vanilla css.

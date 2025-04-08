@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import "../css/DynamicSection.css";
-import Retailers from "../images/for-retailers.png";
-import Brands from "../images/for-brands.png";
-import Mediapartners from "../images/for-media-partners.png";
 import { useNavigate } from "react-router-dom";
-
+import { tabContent } from "../data/data";
 const DynamicSection = () => {
   // State for selected tab
   const [selectedTab, setSelectedTab] = useState("retailers");
@@ -13,38 +10,6 @@ const DynamicSection = () => {
     navigate("/solutions");
   };
   // Content for each tab
-  const tabContent = {
-    retailers: {
-      heading:
-        "Full fidelity, shoppable experiences at scale to drive trips, baskets, vendor co-op and ROI",
-      points: [
-        "Showcase your full assortment with localized pricing & offers in an engaging, curated experience.",
-        "Proven >25% store trip lift via Foursquare & 3rd party MMM/MTA ROI validated.",
-        "Granular by SKU and store data to inform marketing and merchandising decisions.",
-      ],
-      image: Retailers,
-    },
-    brands: {
-      heading:
-        "Grow your brand by reaching highly engaged shoppers in buying mode",
-      points: [
-        "Target custom audiences based on 400B+ intent-based shopping signals.",
-        "Unique access to over 1,600 retailers’ local offers and pricing in highly customizable ad experiences.",
-        "Drive 103% lift in purchase intent and incremental 4:1 ROAS.",
-      ],
-      image: Brands,
-    },
-    media: {
-      heading:
-        "Maximize revenue growth and user engagement with exclusive access to high quality local shopping experiences",
-      points: [
-        "Driving sustainable, incremental yield and revenue.",
-        "Enabling users to achieve shopping objectives onsite.",
-        "Highly engaging, full fidelity experiences. 20 seconds average dwell time.",
-      ],
-      image: Mediapartners,
-    },
-  };
 
   const { heading, points, image } = tabContent[selectedTab];
 
